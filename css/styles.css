@@ -1,0 +1,134 @@
+
+  body {
+
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    color: whitesmoke;
+
+  }
+
+
+  #header {
+
+    width: 100%;
+    background-color: #393e46;
+    padding: 1rem;
+    height: 4rem;
+    position: relative;
+
+
+  }
+
+  #buttonContainer {
+
+    width: 230px;
+    margin: 0 auto;
+
+  }
+
+  .toggleButton {
+
+    float: left;
+    border: 1px solid grey;
+    padding: 2px;
+    position: relative;
+    top: 1rem;
+
+
+  }
+
+  #logo {
+
+    float: left;
+    position: absolute;
+    bottom: 10%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+    font-size: 110%;
+
+
+
+  }
+
+  #logo2 {
+
+    position: absolute;
+    top: 40%;
+    left: 1.5%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: normal;
+  }
+
+  #html {
+
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+  }
+
+  #javaScript {
+
+    border-left: none;
+
+  }
+
+  #output {
+
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .highlightedButton {
+
+    background-color: darkgrey;
+  }
+
+  .active {
+
+    background-color: #8BC34A;
+
+  }
+
+  #bodyContainer {
+
+    height: 35rem;
+
+  }
+
+  textArea {
+
+    width: 50%;
+    height: 100%;
+    resize: none;
+    border-top: none;
+    border-bottom: none;
+    border-color: grey;
+    background-color: #dedede;
+    color: black;
+
+
+  }
+
+  .panel {
+
+    float: left;
+    width: 50%;
+    border-left: none;
+
+
+  }
+
+  iframe {
+
+    border: none;
+
+
+  }
+
+  .hidden {
+
+    display: none;
+  }
